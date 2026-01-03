@@ -1,4 +1,4 @@
-# 📇 Person Directory Application (C)
+# Person Directory Application (C)
 
 A simple **console-based Person Directory application written in C**.  
 This program allows users to **add, delete, search, list, and permanently store people information** using file operations.
@@ -7,7 +7,7 @@ The project is designed to practice **structs, enums, typedefs, functions, and f
 
 ---
 
-## 🚀 Features
+## Features
 
 - Add a new person
 - Delete a selected person (even if multiple people share the same name)
@@ -18,7 +18,7 @@ The project is designed to practice **structs, enums, typedefs, functions, and f
 
 ---
 
-## 🧠 Concepts Used
+##  Concepts Used
 
 - **Struct** – To represent a person  
 - **Typedef** – To simplify struct usage  
@@ -27,8 +27,18 @@ The project is designed to practice **structs, enums, typedefs, functions, and f
 - **File I/O** – Persistent data storage using `fopen`, `fprintf`, `fscanf`
 
 ---
+## Menu Options
+1. Add Person
+2. Delete Person
+3. Search Person
+4. List People
+5. Exit
 
-## 🧱 Data Structure
+##File Format (people.txt)
+    FirstName LastName PhoneNumber Age
+
+   
+##  Data Structure
 
 ```c
 typedef struct {
@@ -38,15 +48,8 @@ typedef struct {
     int age;
 } Person;
 
-##Menu Options
-1. Add Person
-2. Delete Person
-3. Search Person
-4. List People
-5. Exit
 
-##File Format (people.txt)
-FirstName LastName PhoneNumber Age
+
 
 
 
