@@ -34,7 +34,7 @@ The project is designed to practice **structs, enums, typedefs, functions, and f
 4. List People
 5. Exit
 
-##File Format (people.txt)
+## File Format (people.txt)
     FirstName LastName PhoneNumber Age
 
    
@@ -47,31 +47,3 @@ typedef struct {
     char phoneNumber[15];
     int age;
 } Person;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
